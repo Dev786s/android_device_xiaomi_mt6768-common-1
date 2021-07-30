@@ -20,4 +20,11 @@
 <resources>
     <!-- Show the network traffic monitor on statusbar even if the device has a notch -->
     <bool name="config_forceShowNetworkTrafficOnStatusBar">true</bool>
+
+    <!-- These resources are around just to allow their values to be customized
+     for different hardware and product builds. -->
+
+    <!-- FPSInfoService FPS node file path -->
+    <string name="config_fpsInfoSysNode" translatable="false">/sys/module/primary_display/parameters/display_framerate_main</string>
+
 </resources>
