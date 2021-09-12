@@ -645,4 +645,7 @@
          screenshot chord -->
     <integer name="config_screenshotChordKeyTimeout">0</integer>
 
+    <!-- Whether device supports an gaming mode profiles -->
+    <bool name="config_gamingmode_performance">true</bool>
+
 </resources>
