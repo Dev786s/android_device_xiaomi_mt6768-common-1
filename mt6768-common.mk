@@ -354,7 +354,7 @@ PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/rootdir/etc/fstab.mt6768:$(TARGET_COPY_OUT_RAMDISK)/fstab.mt6768
 
 # IMS
-PRODUCT_BOOT_JARS += \
+#PRODUCT_BOOT_JARS += \
     mediatek-common \
     mediatek-framework \
     mediatek-ims-base \
