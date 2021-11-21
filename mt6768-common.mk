@@ -194,6 +194,10 @@ PRODUCT_PACKAGES += \
     libprotobuf-cpp-full-vendorcompat \
     libprotobuf-cpp-lite-vendorcompat
 
+# RetroMusic
+PRODUCT_PACKAGES += \
+    RetroMusic
+
 # Seccomp
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/seccomp/mediacodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
