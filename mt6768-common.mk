@@ -91,7 +91,8 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0 \
     android.hardware.bluetooth@1.0.vendor \
     libldacBT_dec \
-    libbtconfigstore
+    libbtconfigstore \
+    libbluetooth_audio_session.vendor
 
 # CameraConfig
 PRODUCT_PACKAGES += \
