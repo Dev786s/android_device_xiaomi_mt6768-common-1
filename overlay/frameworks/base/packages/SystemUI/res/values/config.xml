@@ -22,4 +22,10 @@
 <resources>
     <!-- Camera 1 is the front camera on cannon -->
     <string translatable="false" name="config_protectedCameraId">1</string>
+
+     <!-- These resources are around just to allow their values to be customized
+     for different hardware and product builds. -->
+
+    <!-- FPSInfoService FPS node file path -->
+    <string name="config_fpsInfoSysNode" translatable="false">/sys/module/primary_display/parameters/display_framerate_main</string>
 </resources>
