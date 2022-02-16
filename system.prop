@@ -33,6 +33,10 @@ debug.renderengine.backend=skiaglthreaded
 # Graphics
 debug.sf.hw=1
 
+# FUSE passthrough
+persist.sys.fuse.passthrough.enable=true
+
+
 # IPO
 sys.ipo.disable=1
 
