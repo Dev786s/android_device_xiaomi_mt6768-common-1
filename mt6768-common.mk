@@ -307,7 +307,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.vibrator@1.0-impl \
     android.hardware.vibrator@1.0-service
-                                
+
+# TinyXML
+PRODUCT_PACKAGES += \
+    libtinyxml \
+    libqdMetaData \
+    libqdMetaData.system
 # Camera
 PRODUCT_PACKAGES += \
     GoogleCameraGo
